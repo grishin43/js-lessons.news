@@ -123,7 +123,6 @@ function listenFilter(){
 function countNews(count){
     const counter = document.getElementsByClassName('news-count');
     if(counter.length === 0){
-        console.log(counter.length);
         const container = newsContainer[0].parentElement;
         const counterBlock = document.createElement('div');
         counterBlock.className = 'news-count';
